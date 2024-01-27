@@ -38,6 +38,22 @@ To install the pyfiglet library, write the following command-line into the termi
 $pip install pyfiglet
 ```
 
+### Test
+To print your text with the default FIGlet font format, write the command:
+```
+$python figlet.py
+$Input: hello, world
+```
+![output default figlet font](./output_default_figlet_font.png)
+
+To print your text with a specific FIGlet font format, write the command:
+```
+$python figlet.py -f slant
+$Input: hello, world
+```
+![output specific figlet font](./output_specific_figlet_font.png)
+
+
 ## Authors
 
 * **BEOM &copy; 2024**
